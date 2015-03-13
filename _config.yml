@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            Kevin Path - Developer in Development
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Kevin Path
+  avatar: Classy.jpg
+  bio: "Undergrad at Pennsylvania State University. Pursuing my dreams of becoming a talented developer."
+  email: kevin.path001@live.com
+  disqus-shortname:
+  twitter: KPath001
+  facebook: 
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: kpath001
+  stackoverflow: 1197559/kpath001 #http://stackoverflow.com/users/123456/username
+  linkedin: kevin-path/64/649/53 #username
+  xing: #username
+  instagram: KoockieMonster #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  resume: Kevin Path .pdf
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
