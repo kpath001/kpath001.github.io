@@ -35,10 +35,11 @@ body{
 .title>h1{
     font-family: 'Old Standard TT', serif;
     font-weight: 900;
-    font-size: 15vw;
+    font-size: 17vw;
     text-transform: uppercase;
     margin: 0;
     justify-content: center;
+    text-align: center;
     
 }
 
@@ -49,10 +50,11 @@ body{
 }
 
 
-.title>h2{
+.title{
     font-weight: 300;
     margin: 0 0 .5em 0;
     margin: 0;
+    text-align: center;
 }
 
 
