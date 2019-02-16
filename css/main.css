@@ -106,6 +106,9 @@ a:link{
 /*###Tablet(medium)###*/
 @media screen and (min-width : 768px) and (max-width : 1023px){
 /*Style*/
+body{
+    padding: 5%
+}
 .title>h1{
     font-weight: 0;
     font-size: 10vw;
@@ -125,6 +128,9 @@ a:link{
 /*### Smartphones (portrait and landscape)(small)### */
 @media screen and (min-width : 0px) and (max-width : 767px){
 /*Style*/
+body{
+    padding: 5%;
+}
 .title>h1{
     font-weight: 0;
     font-size: 10vw;
